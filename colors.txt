@@ -1,0 +1,62 @@
+bg=background
+fg=foreground
+ol=outline
+bd=border
+
+
+three types of color themes possible
+1. all colors (includes general+dark+light)
+2. dark colors
+3. light colors
+
+
+
+MUICSS COLORS
+
+*-black
+*-white
+*-lime
+*-green
+*-emerald
+*-teal
+*-cyan
+*-cobalt
+*-indigo
+*-violet
+*-pink
+*-magenta
+*-crimson
+*-red
+*-orange
+*-amber
+*-yellow
+*-brown
+*-olive
+*-steel
+*-mauve
+*-taupe
+*-gray
+*-dark
+*-darker
+*-transparent
+*-darkBrown
+*-darkCrimson
+*-darkMagenta
+*-darkIndigo
+*-darkCyan
+*-darkCobalt
+*-darkTeal
+*-darkEmerald
+*-darkGreen
+*-darkOrange
+*-darkRed
+*-darkPink
+*-darkViolet
+*-darkBlue
+*-lightBlue
+*-lightTeal
+*-lightOlive
+*-lightOrange
+*-lightPink
+*-lightRed
+*-lightGreen

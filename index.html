@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Random Colors</title>
+	<meta charset="utf-8">
+    <meta name="description" content="Get beautiful random colors on every page reload">
+    <meta name="author" content="CybrHome">
+    <meta name="product" content="random-colors">
+    <meta name="keywords" content="css color, css background, random colors, custom background, ui design, colours">
+	
+	<link rel="stylesheet" href="colors.css">
+
+	<style>
+	body {
+		margin: 0;
+	}
+	div {
+	  height: 25vh;
+	  text-align: center;
+	  color: white;
+	  line-height: 25vh;
+	}
+	</style>
+
+</head>
+
+<body>
+
+	<div class='random-dark-bg'></div>
+	<div class='random-light-bg'></div>
+	<div class='random-dark-bg'></div>
+	<div class='random-light-bg'></div>
+
+	<script>
+		var bgdark = ['bg-darkBrown','bg-darkCrimson','bg-darkMagenta','bg-darkIndigo','bg-darkCyan','bg-darkCobalt','bg-darkTeal','bg-darkEmerald','bg-darkGreen','bg-darkOrange','bg-darkRed','bg-darkPink','bg-darkViolet','bg-darkBlue'];
+
+		var elements = document.getElementsByClassName('random-dark-bg');
+
+		for(i = 0; i < elements.length; i++) {
+		   var x = Math.floor((Math.random() * bgdark.length) + 0);
+		  elements[i].innerHTML = bgdark[x];
+		  elements[i].className += ' '+bgdark[x];
+
+		}
+
+		var bglight = ['bg-lightBlue','bg-lightRed','bg-lightGreen','bg-lighterBlue','bg-lightTeal','bg-lightOlive','bg-lightOrange','bg-lightPink','bg-grayLight','bg-grayLighter'];
+
+		var lightelements = document.getElementsByClassName('random-light-bg');
+
+		for(i = 0; i < elements.length; i++) {
+		   var x = Math.floor((Math.random() * bglight.length) + 0);
+		  lightelements[i].innerHTML = bglight[x];
+		  lightelements[i].className += ' '+bglight[x];
+
+		}
+
+	</script>
+
+</body>
+</html>
